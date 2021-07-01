@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Animal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <button class="mainbtn" onclick="document.location.href='index.html'">Healthy Animal <i class="fas fa-paw"></i></button>
+        <span class="weather"></span>
+    </header>
+    <main>
+        <div class="main">
+            <div class="greeting__container">
+                <p class="greeting">경기도에 있는 동물 병원과 동물 약국을 찾아보세요!</p>
+            </div>
+            <div class="card__container">
+                <div class="card__item" style="background-color: lightpink;">
+                    <p>동물병원<br>
+                    가까운 동물병원을<br>
+                    조회해보세요.
+                    </p>
+                    <button class="hospitalBtn"><i class="fas fa-user-md fa-2x"></i><i class="fas fa-angle-right fa-2x"></i></button>
+                </div>
+                <div class="card__item" style="background-color: lightskyblue;">
+                    <p>동물약국<br>
+                    가까운 동물약국을<br>
+                    조회해보세요.
+                    </p>
+                    <button class="pharmacyBtn"><i class="fas fa-capsules fa-2x"></i><i class="fas fa-angle-right fa-2x"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="search__container">
+            <div class="hospital">
+                동물병원 조회하기
+                <p>내용<br>
+                    api 연결 결과물 
+                </p>
+            </div>
+            <div class="pharmacy">동물약국 조회하기</div>
+        </div>
+    </main>
+    <script src="weather.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
