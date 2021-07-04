@@ -37,8 +37,8 @@
           <div class="card__item" style="background-color: #f7a7a6">
             <p>
               동물병원<br />
-              가까운 동물병원을<br />
-              조회해보세요.
+              <br />
+              동물병원을 조회해보세요.
             </p>
             <button class="hospitalBtn">
               <i class="fas fa-user-md fa-2x"></i
@@ -48,8 +48,8 @@
           <div class="card__item" style="background-color: #fdd2b5">
             <p>
               동물약국<br />
-              가까운 동물약국을<br />
-              조회해보세요.
+              <br />
+              동물약국을 조회해보세요.
             </p>
             <button class="pharmacyBtn">
               <i class="fas fa-capsules fa-2x"></i
@@ -74,7 +74,21 @@
             <tbody class="hospital__table"></tbody>
           </table>
         </div>
-        <div class="pharmacy">동물약국 조회하기</div>
+        <div class="pharmacy">
+          동물약국 조회하기
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Index</th>
+                <th>City</th>
+                <th>Name</th>
+                <th>Tel</th>
+                <th>Address</th>
+              </tr>
+            </thead>
+            <tbody class="pharmacy__table"></tbody>
+          </table>
+        </div>
       </div>
     </main>
     <script src="weather.js"></script>
