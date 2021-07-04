@@ -42,6 +42,7 @@ button {
   align-items: center;
   justify-content: center;
   width: 100vw;
+  height: 254px;
   background-color: #dbebc2;
 }
 .card__item {
